@@ -9,7 +9,7 @@
             "containerPort": 3000,
             "hostPort": 0,
             "protocol": "tcp",
-            "servicePort": 10189,
+            "servicePort": 10201,
             "name": "cb-node-starter"
         }],
         "type": "DOCKER",

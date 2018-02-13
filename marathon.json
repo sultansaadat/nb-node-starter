@@ -6,7 +6,7 @@
     {
         "portMappings": [
         {
-            "containerPort": 3000,
+            "containerPort": 8080,
             "hostPort": 0,
             "protocol": "tcp",
             "servicePort": 10184,

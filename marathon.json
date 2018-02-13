@@ -31,7 +31,7 @@
         "executable": false,
         "cache": false
     }],
-    "instances": 2,
+    "instances": 1,
     "labels":
     {
         "HAPROXY_0_VHOST": "<vhost>",

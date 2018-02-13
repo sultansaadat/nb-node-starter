@@ -1,5 +1,5 @@
 {
-    "id": "/dev/cb-node-starter",
+    "id": "cb-node-starter",
     "backoffFactor": 1.15,
     "backoffSeconds": 1,
     "container":

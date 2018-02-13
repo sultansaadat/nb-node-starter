@@ -1,0 +1,61 @@
+{
+    "id": "/dev/cb-node-start",
+    "backoffFactor": 1.15,
+    "backoffSeconds": 1,
+    "container":
+    {
+        "portMappings": [
+        {
+            "containerPort": 3000,
+            "hostPort": 0,
+            "protocol": "tcp",
+            "servicePort": 10199,
+            "name": "cb-node-starter"
+        }],
+        "type": "DOCKER",
+        "volumes": [],
+        "docker":
+        {
+            "image": "862349788439.dkr.ecr.eu-central-1.amazonaws.com/cb-node-starter:latest",
+            "forcePullImage": true,
+            "privileged": false,
+            "parameters": []
+        }
+    },
+    "cpus": 0.2,
+    "disk": 100,
+    "fetch": [
+    {
+        "uri": "file:///home/core/docker.tar.gz",
+        "extract": true,
+        "executable": false,
+        "cache": false
+    }],
+    "instances": 2,
+    "labels":
+    {
+        "HAPROXY_0_VHOST": "<vhost>",
+        "HAPROXY_0_GROUP": "external"
+    },
+    "maxLaunchDelaySeconds": 3600,
+    "mem": 128,
+    "gpus": 0,
+    "networks": [
+    {
+        "mode": "container/bridge"
+    }],
+    "requirePorts": false,
+    "upgradeStrategy":
+    {
+        "maximumOverCapacity": 1,
+        "minimumHealthCapacity": 1
+    },
+    "killSelection": "YOUNGEST_FIRST",
+    "unreachableStrategy":
+    {
+        "inactiveAfterSeconds": 0,
+        "expungeAfterSeconds": 0
+    },
+    "healthChecks": [],
+    "constraints": []
+}

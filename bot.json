@@ -1,0 +1,61 @@
+[
+{
+    "id": 0,
+    "answers": null,
+    "delay": 0,
+    "flowAnswer": null,
+    "flowId": null,
+    "input": null,
+    "text": "Hello",
+    "validation": null
+},
+{
+    "id": 1,
+    "answers": ["Yes", "No"],
+    "delay": 0.25,
+    "flowAnswer": null,
+    "flowId": null,
+    "input": null,
+    "text": "Do you want to signup?",
+    "validation": null
+},
+{
+    "id": 2,
+    "answers": null,
+    "delay": 0,
+    "flowAnswer": "Yes",
+    "flowId": 1,
+    "input": "text",
+    "text": "First name",
+    "validation": "name"
+},
+{
+    "id": 3,
+    "answers": null,
+    "delay": 0,
+    "flowAnswer": null,
+    "flowId": null,
+    "input": "text",
+    "text": "Last name",
+    "validation": "name"
+},
+{
+    "id": 4,
+    "answers": null,
+    "delay": 0,
+    "flowAnswer": null,
+    "flowId": null,
+    "input": "text",
+    "text": "E-mail",
+    "validation": "email"
+},
+{
+    "id": 5,
+    "answers": null,
+    "delay": 0,
+    "flowAnswer": null,
+    "flowId": null,
+    "input": "text",
+    "text": "Phone number",
+    "validation": "phone"
+}]

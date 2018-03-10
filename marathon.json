@@ -34,8 +34,9 @@
     "instances": 2,
     "labels":
     {
-        "HAPROXY_0_VHOST": "<vhost>",
-        "HAPROXY_0_GROUP": "external"
+        "DCOS_SERVICE_SCHEME": "HTTP",
+        "DCOS_SERVICE_NAME": "cb-node-starter",
+        "DCOS_SERVICE_PORT_INDEX": "0"
     },
     "maxLaunchDelaySeconds": 3600,
     "mem": 128,

@@ -31,12 +31,11 @@
         "executable": false,
         "cache": false
     }],
-    "instances": 2,
+    "instances": 1,
     "labels":
     {
-        "DCOS_SERVICE_SCHEME": "HTTP",
-        "DCOS_SERVICE_NAME": "cb-node-starter",
-        "DCOS_SERVICE_PORT_INDEX": "0"
+        "HAPROXY_0_VHOST": "<vhost>",
+        "HAPROXY_0_GROUP": "external"
     },
     "maxLaunchDelaySeconds": 3600,
     "mem": 128,

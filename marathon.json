@@ -1,5 +1,5 @@
 {
-    "id": "/dev/cb-node-starter",
+    "id": "/uat/cb-node-starter",
     "backoffFactor": 1.15,
     "backoffSeconds": 1,
     "container":
@@ -9,7 +9,7 @@
             "containerPort": 8080,
             "hostPort": 0,
             "protocol": "tcp",
-            "servicePort": 10184,
+            "servicePort": 10185,
             "name": "cb-node-starter"
         }],
         "type": "DOCKER",

@@ -1,5 +1,5 @@
 {
-    "id": "/uat/cb-node-starter",
+    "id": "/cb-node-starter",
     "backoffFactor": 1.15,
     "backoffSeconds": 1,
     "container":
@@ -34,8 +34,9 @@
     "instances": 1,
     "labels":
     {
-        "HAPROXY_0_VHOST": "<vhost>",
-        "HAPROXY_0_GROUP": "external"
+        "HAPROXY_0_VHOST": "node-starter.citadele.io",
+        "HAPROXY_0_GROUP": "external",
+        "HAPROXY_0_MODE": "http"
     },
     "maxLaunchDelaySeconds": 3600,
     "mem": 128,

@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
       - name: nb-node-starter
-        image: sultansaadat/nb-node-starter:latest               
+        image: sultansaadat84/nb-node-starter:latest               
         ports:
         - containerPort: 8080

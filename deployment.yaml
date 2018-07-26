@@ -6,7 +6,7 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
-    targetPort: 8080
+    targetPort: 3000
   selector:
     app: nb-node-starter
 ---
@@ -25,4 +25,4 @@ spec:
       - name: nb-node-starter
         image: sultansaadat84/nb-node-starter:latest               
         ports:
-        - containerPort: 8080
+        - containerPort: 3000

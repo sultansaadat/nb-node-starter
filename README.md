@@ -1,5 +1,5 @@
 # cb-node-starter
-node starter for dcos
+node starter for kubernetes
 
 
 setup
